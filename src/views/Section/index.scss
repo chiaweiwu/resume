@@ -1,0 +1,17 @@
+@import '../../_colors.scss';
+
+.exp_section {
+  margin-bottom: 1rem;
+
+  .companyTitle {
+    margin-bottom: 0;
+  }
+
+  .time {
+    text-align: right;
+
+    @media screen and (max-width: 600px) {
+      text-align: left;
+    }
+  }
+}

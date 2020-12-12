@@ -1,0 +1,50 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./_colors.scss";
+
+body {
+  color: $primary-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $primary-color;
+  background-color: $secondary-color;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+
+  @media screen and (max-width: 600px) {
+    width: auto;
+  }
+
+  .mini_title {
+    font-size: 10pt;
+    margin-bottom: .5rem;
+    background-color: $tertiary-color;
+    letter-spacing: 2px;
+    // text-transform: uppercase;
+  }
+
+  .mini_skills {
+    color: #333;
+    font-size: 9pt;
+  }
+
+  .title {
+    margin: 1rem 0 .5rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 600px) {
+      margin: .25rem 0;
+    }
+  }
+
+}

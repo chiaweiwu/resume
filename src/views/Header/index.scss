@@ -1,0 +1,36 @@
+@import '../../colors';
+
+.info,
+.contact {
+  padding: 1rem;
+
+  @media screen and (max-width: 600px) {
+    padding: 0 1rem;
+  }
+}
+
+.info {
+  
+  h1,
+  span {
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+  
+  span {
+    background-color: $secondary-color;
+  }
+}
+
+.contact {
+  text-align: right;
+
+  @media screen and (max-width: 600px) {
+    text-align: left;
+    background: #eee;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+  }
+}

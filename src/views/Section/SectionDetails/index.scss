@@ -1,0 +1,17 @@
+@import '../../../_colors.scss';
+
+.project_title {
+  background-color: $secondary-color;
+  margin-bottom: 0;
+  margin-right: .5rem;
+  font-size: 12pt;
+}
+
+.highlight {
+  background-color: $secondary-color;
+}
+
+.project_descript {
+  margin-bottom: 0;
+  font-size: 12pt;
+}
