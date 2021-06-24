@@ -1,7 +1,20 @@
 export const data = [
   {
+    jobExpTitle: '網頁工程師',
+    time: '2021/03 - Present',
+    companyTitle: '香港商盛匯信息科技有限公司',
+    projects: [{
+      techUsed: [
+        'JavaScript (ES2015)',
+        'React',
+        'React SSR',
+        'TradingView',
+      ],
+    }],
+  },
+  {
     jobExpTitle: '網頁前端工程師',
-    time: '2019/07 - Present',
+    time: '2019/07 - 2021/02',
     companyTitle: '雷技資訊科技有限公司',
     projects: [{
       projectTitle: 'Camp Bow Wow',
