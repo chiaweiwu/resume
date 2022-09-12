@@ -21,6 +21,7 @@ import { data } from '../../data/expData.js';
 import { honorData } from '../../data/honors.js';
 import { eduData } from '../../data/edu.js';
 
+let isEnglish = true;
 class Resume extends React.Component {
   constructor(props){
     super(props);
@@ -33,7 +34,6 @@ class Resume extends React.Component {
     }
   }
 
-  // isEnglish = false;
 
   render(){
     return(

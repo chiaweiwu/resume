@@ -1,1 +1,1 @@
-2021 Resume built with React + React Hooks
+2022 Resume built with React + React Hooks

@@ -1,26 +1,84 @@
 export const data = [
   {
-    jobExpTitle: '網頁前端工程師',
-    time: '2019/07 - Present',
-    companyTitle: '雷技資訊科技有限公司',
+    jobExpTitle: 'Web Engineer in FinTech',
+    time: '2021/03 - Present',
+    companyTitle: 'BancLogix System Co.',
+    projects: [
+    {
+      projectTitle: 'MCDC Admin Dashboard',
+      project_descript: 'Internal system for MCDC logistics staff to perform daily sales and business related management tasks',
+      descript: [
+        'Main front-end developer in the duo team',
+        'Used React + TypeScript + ANTD Pro 5 frameworks for development',
+        'Assisted marketing executive to create better user login work flow and gave tips on general design pointers',
+        'Built login system',
+        'Built user management module: adding and managing internal user accounts',
+        'Built customer support module: linking Zendesk Help Center, for checking and updating user personal profiles, viewing user transaction hisotry, and locking users if necessary'
+      ],
+      techUsed: [
+        'JavaScript (ES2015)',
+        'TypeScript',
+        'React',
+      ],
+    },
+    {
+      projectTitle: 'MM Admin Dashboard',
+      project_descript: 'Internal CMS system for company admin',
+      descript: [
+        'Main front-end developer in the duo team',
+        'Used React + TypeScript + ANTD Pro 5 frameworks for development',
+        'Managed to create a product prototype without design mocks after discussing requirements with Hong Kong team and met their needs',
+        'Built user listing and authority management system and user posts management system'
+      ],
+      techUsed: [
+        'JavaScript (ES2015)',
+        'TypeScript',
+        'React',
+      ],
+    },
+    {
+      projectTitle: 'Front-end development',
+      project_descript: 'Maintaining and creating front-end website and apps of most company product',
+      descript: [
+        'Mainly focused on: creating all types of web related product for the marketing team such as SPA, EDM and new product official sites',
+        'Mostly worked on maintaining and creating front-end of the GCFX web app, KVBGC global site, Banclogix official, Uni Finance site, Uni Trader, and the upcoming Landmark Singapore',
+        'Sole developer for Uni Finance: held three-way discussion with partnered design firm and Hong Kong branch marketing team.',
+        'Assisted marketing team in setting up CRM with backend devs to better collect and analyze potential leads and users',
+        'Handled and maintained various i18n multi-language sets for each product and official sites',
+        'Connected trading charts and live prices tables with Websocket',
+        'Connected Google Analytics for the marketing to help them track and analyze data',
+        'Guided marketing team on transitioning from Universal Analytics to Google Analytics 4, while teaching them tool differences and gave a walkthrough tutorial',
+      ],
+      techUsed: [
+        'JavaScript (ES2015)',
+        'TypeScript',
+        'jQuery',
+        'Pug',
+        'React',
+        'React SSR',
+      ],
+    }],
+  },
+  {
+    jobExpTitle: 'Front-end developer in a software solutions agency',
+    time: '2019/07 - 2021/02',
+    companyTitle: 'Logic Solutions Taiwan',
     projects: [{
       projectTitle: 'Camp Bow Wow',
       projectLink: 'https://www.facebook.com/CampBowWow',
-      project_descript: '全美超過170家的寵物美容機構。',
+      project_descript: 'Over 170+ dog day care in the States',
       descript: [
-        'Android 跟 iOS App 使用 NativeScript 開發',
-        'NativeScript 是一個類似 React Native 的技術，單次開發，就可以在雙平台運作 ',
-        '網頁版本使用 Angular 9 開發',
-        '前端為兩人團隊，主要開發者之一',
-        '在開發原生的 Android 跟 iOS App 時，解決裝置上相容性問題',
-        '在專案初期規劃時，將常用功能模組化',
-        '使用 Sketch 模擬產品雛形並排除邏輯誤點',
-        '將 Powerpoint 投影片轉成實際可使用的 Prototype，讓客戶用用看是否符合需求',
-        '在後端繁忙情況下，使用模擬數據以便未來串聯 API',
-        '串接 Firebase Analytics 以便用戶追蹤並分析產品使用數據',
-        '撰寫 Firebase Analytics 的數據分析指南，讓客戶了解數據的意義 ',
-        '建立緊急聯絡人的功能：處理複雜的巢狀前端邏輯',
-        '寵物住宿預約系統： 簡化判斷邏輯複雜度，以便維護'
+        'Developed Android and iOS App using NativeScript, a framework similar to React Native',
+        'Developed the web version via Angular 9 and worked as the main developer in the duo front-end team',
+        'Solved compatibility issues while developing in native Android and iOS app',
+        'Modualized commonly used functionality during project initial planning phase',
+        'Used Sketch to mock product prototype and eliminate logical design errors',
+        'Turned PowerPoint slides into usable prototypes and let clients test for product requirements',
+        'Used mock data to esnure ease of API connection when the backend developers were busy',
+        'Connected Firebase Analytics to let client track and analyze product via data',
+        'Wrote analysis guides on Firebase Analytics to help clients better understand tracked data ',
+        'Built the Emergency Contact feature: took care of complicated nested logic in the front-end',
+        'Simplified logic complexity for better code maintenace in the dog daycare reservation system'
       ],
       techUsed: [
         'JavaScript (ES2015)',
@@ -28,22 +86,22 @@ export const data = [
         'Angular 9',
         'NativeScript'
       ],
-      sampleImages: [
-        './assets/cbw/0.jpg',
-        './assets/cbw/1.jpg',
-        './assets/cbw/2.jpg'
-      ]
+      // sampleImages: [
+      //   './assets/cbw/0.jpg',
+      //   './assets/cbw/1.jpg',
+      //   './assets/cbw/2.jpg'
+      // ]
     },
     {
       projectTitle: 'Salon Iris',
       projectLink: 'https://www.saloniris.com/',
-      project_descript: '被美國超過15,000+美髮沙龍機構使用的產品，客戶數據持續成長中。',
+      project_descript: 'Used by over 15,000+ salon institutes in the states.',
       descript: [
-        '沙龍結賬系統: 處理禮物卡購買消費機制',
-        '記賬系統: 員工薪水以及店面開銷管理',
-        '自動化的驗收測試: 使用 Cucumber 和 Selenium 模擬瀏覽器操作，配合協作廠商測試產品，確保流程順暢',
-        '熟悉 QA 框架後，指導其他開發團隊隊員如何編寫以及測試不同 test case，並幫忙修改隊員的 code',
-        '曾任 Scrum Master 並帶領團員和美國及合作廠商開會，並同時使用中英文和團員及客戶討論產品開放解決方案，確保雙方需求零誤差。',
+        'Salon Checkout System: handled logic in terms of gift card purchases',
+        'Billing System: Employee salary and store spending management',
+        'Automated QA Tests: Used Cucumber and Selenium to perform mock user actions, worked with partnered firm to test products and ensured user experience',
+        'Familiared self with QA framework, then trained local team members in creating and writing different cases in Cucumber and helped debugged test case code as needed',
+        'Communicated in both English and Mandarin to ensure zero miscommunications between local team members, US branch members and partnered firm when discussing product solutions and acted as scrum master in meetings.',
       ],
       techUsed: [
         'JavaScript (ES2015)',

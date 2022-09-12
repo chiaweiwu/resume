@@ -1,14 +1,61 @@
 export const data = [
   {
-    jobExpTitle: '網頁工程師',
+    jobExpTitle: '網頁前端工程師',
     time: '2021/03 - Present',
     companyTitle: '香港商盛匯信息科技有限公司',
-    projects: [{
+    projects: [
+    {
+      projectTitle: 'MCDC Admin Dashboard',
+      project_descript: '公司內部協助 MCDC 後勸人員執行每天跟業務相關的管理工作的系統。（開發進行中',
+      descript: [
+        '為兩人團隊，主要開發者之一',
+        '使用 React + TypeScript + ANTD Pro 5 框架開發',
+        '協助行銷專員優化出用戶登入流程，並提供產品設計方向',
+        '登入系統、新增和管理後台人員帳戶',
+        '客戶管理後台: 配合 Zendesk Help Center 一起使用、查看用戶個人和交易記錄、更新用戶資料、需要時鎖定用戶',
+      ],
       techUsed: [
         'JavaScript (ES2015)',
+        'TypeScript',
+        'React',
+      ],
+    },
+    {
+      projectTitle: 'MM Admin Dashboard',
+      project_descript: '公司內部使用者後台管理發佈系統。',
+      descript: [
+        '為兩人團隊，主要開發者之一',
+        '使用 React + TypeScript + ANTD Pro 5 框架開發',
+        '在後端繁忙情況下，使用模擬數據以便未來串聯 API',
+        '在沒有設計稿的情況下，依照需求和團隊討論並創建出產品雛形 + 滿足需求',
+        '用戶清單權限管理系統',
+        '用戶發文管理後台系統'
+      ],
+      techUsed: [
+        'JavaScript (ES2015)',
+        'TypeScript',
+        'React',
+      ],
+    },
+    {
+      projectTitle: '前端頁面開發',
+      project_descript: '公司集團業務導向網頁及產品維護。',
+      descript: [
+        '主要開發: 為業務團隊打造各種客製化活動頁面、EDM 及產品',
+        '負責部分集團官網的 （GCFX、KVBGC、Banclogix、Uni Finance、Uni Trader、Landmark Singapore）產品及附屬品更新維護',
+        '為 Uni Finance 官網主要開發者，配合第三方設計師創建、串接交易走向圖及報價表格',
+        '串接交易圖表及即時匯率和虛擬硬幣價錢',
+        '處理並維護各官網及附屬產品的 i18n 多國語系庫',
+        '串接 Google Analytics 以便業務追蹤並分析產品使用數據',
+        '協助香港行銷團隊從 Universal Analytics 升級至 Google Analytics 4， 並實際操作和教導業務兩個工具的差異，以及如何使用 GA4 設定追蹤以方便分析產品使用數據',
+      ],
+      techUsed: [
+        'JavaScript (ES2015)',
+        'TypeScript',
+        'jQuery',
+        'Pug',
         'React',
         'React SSR',
-        'TradingView',
       ],
     }],
   },

@@ -13,6 +13,6 @@ export const honorData = [
       'Technical Consultant', 
       'UI/UX Designer'
     ],
-    sampleImages: ['1']
+    // sampleImages: ['1']
   }
 ]

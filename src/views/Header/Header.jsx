@@ -11,7 +11,7 @@ import styles from './index.scss';
 const Header = () => (
     <Row>
       <Col className={styles.info} xs={12} md={8}>
-        <h1>Chia-Wei Wu</h1>
+        <h1>Lily Wu</h1><br />
         <span>Front-end Engineer</span>
       </Col>
       <Col className={styles.contact} xs={12} md={4}>
