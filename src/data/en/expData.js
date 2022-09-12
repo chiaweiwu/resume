@@ -1,7 +1,7 @@
 export const data = [
   {
     jobExpTitle: 'Web Engineer in FinTech',
-    time: '2021/03 - Present',
+    time: '2021/03 - 2022/07',
     companyTitle: 'BancLogix System Co.',
     projects: [
     {

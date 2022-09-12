@@ -1,7 +1,7 @@
 export const data = [
   {
     jobExpTitle: '網頁前端工程師',
-    time: '2021/03 - Present',
+    time: '2021/03 - 2022/07',
     companyTitle: '香港商盛匯信息科技有限公司',
     projects: [
     {
